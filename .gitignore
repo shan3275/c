@@ -1,1 +1,11 @@
-.vscode/
+.vscode
+*.d
+.depend
+*.out
+.deps/
+.tags*
+tags
+*.o
+.libs
+.gdbinit
+.swp
