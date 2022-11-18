@@ -9,7 +9,7 @@
 #elif !defined(BSD)
 #define _XOPEN_SOURCE	600	/* Single UNIX Specification, Version 3 */
 #endif
-
+#define CMSG_LEN(x)	(sizeof(struct cmsghdr)+(x))
 #include <sys/types.h>		/* some systems still require this */
 #include <sys/stat.h>
 #include <sys/termios.h>	/* for winsize */
