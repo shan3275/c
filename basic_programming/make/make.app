@@ -2,7 +2,7 @@ include $(MKDIR)/make.var
 
 
 CFLAGS  += -DMAKEAPP -g -Wall -I. -I$(SRCDIR) -I$(SRCDIR)/md5lib
-LDFLAGS += -L$(SRCDIR)/md5lib
+LDFLAGS += 
 
 all: $(PROG)
 
